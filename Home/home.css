@@ -1,3 +1,43 @@
+*{
+    font-family: 'Inter';
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+}
+
+h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+h6{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+}
+
 body {
     background-color : white;
     font-family: 'Inter', sans-serif;
@@ -25,6 +65,7 @@ body {
 
 .sub-title {
     font-weight: 900;
+    color: #2A5298;
 }
 
 .navbar {
@@ -97,168 +138,124 @@ body {
     background-color: #ecf3ff;
 }
 
-
-.jumbotron .container{
-    width: 700px;
-    height: 250px;
-    margin-top: 130px;
-    font-feature-settings: 'salt' on, 'liga' off;
-    background-image: url("../images/Component\ 25.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.jumbotron{
+    margin-top: 70px;
 }
 
-.jumbotron h1{
-    font-style: normal;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 64px;
-    
-}
-
-.jumbotron h5{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: bold;
-}
-
-.jumbotron .container .row .col {
-    padding-top: 50px;
-}
-
-.body-1 {
-    margin-top: 150px;
-    
-}
-
-.body-1 h2{
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 64px;
-    color: #18191f;
-}
-
-.body-1 .category{
-    background-color: white;
-    margin-top: 52px;
-    width: 600px;
-    height: 285px;
-    text-align: center;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;    
-
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 64px;
-    color: #2A5298;
-
-    padding-top: 15%;
-    transition: .3s;
-}
-
-.category:hover{
-    color: #18191F;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    background-color: #D5E8F9;
-}
-
-.form {
-    margin-top: 52px;
-    margin-left: 50px;  
-    height: 960px;
-    border-radius: 20px;
-    background: #F3F3F3;
-    box-shadow: -10px 0px 30px rgba(0, 0, 0, 0.2);
-    padding: 0px 48px;
-    font-feature-settings: 'salt' on, 'liga' off;
-}
-
-.form h3{
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 64px;
-    color: #18191f;
-    margin-top: 35px;
-    text-align: center;
-}
-
-.form input{
-    width: 100%;
-    margin: 20px 0px;
-    height: 64px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-style: none;
-}
-
-.form input:focus{
-    outline: none;
-}
-
-.form textarea{
-    width: 100%;
-    margin: 20px 0px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-style: none;
-}
-
-.form input[type=checkbox] {
-    width: 20px;
-    height: 20px;
-    background-color: #ffffff;
-    margin-top: -10px;
-    border-radius: 5px;
-    cursor: pointer;
-    border-style: none;
-}
-
-.form input[type=submit]{
-    margin-top: -2px;
-    background: #FAAC1B;
-    border-radius: 10px;
-    color: #ffffff;
-    font-style: normal;
-    font-weight: bold;
+.btn-learn{
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    font-weight: 700;
     font-size: 20px;
     line-height: 24px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+    letter-spacing: 0.0015em;
+
+    color: #FFFFFF;
+    /* p blue 500 */
+
+    background: #2A5298;
+    border-radius: 10px;
     transition: .3s;
 }
 
-.form input[type=submit]:hover{
-    opacity: 50%;
-    color: #18191F;
+.btn-learn:hover{
+    border-color: #2A5298;
+    background-color: white;
+    color: #2A5298;
 }
 
-.container .contact{
-    margin-top: 50px;
-    z-index: 10;
-    padding: 30px 30px;
-    height: 125px;
-    background-color: white;
-    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
-    border-radius: 8px;
+.bg_home1{
+    background-image: url("../images/bg_home_kiri1.png");
+    background-repeat: no-repeat;
 }
-.contact-us-1{
+
+.home{
+    margin-top: 100px;
+}
+
+.card-services{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    height: 21rem;
+}
+
+.btn-card{
+    font-family: 'Inter';
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+
+    width: 135px;
+    height: 44px;
+    background-color: white;
+    color: #2A5298;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border-color: #2A5298;
+    fill: white;
+    transition: .3s;
+}
+
+.bi-arrow-right{
+    fill: #2A5298;
+}
+
+.btn-card:hover{
+    color: #2A5298;
+    transform: scale(1.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.07);
+}
+
+.bg_home2{
+    position: absolute;
+    margin-top: 200px;
+    right: 0;
+    z-index: -10;
+
+}
+
+.title-no{
+    font-family: 'Droid Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    /* identical to box height, or 108% */
+
+
+    /* p blue 800 */
+
+    color: #0D2058;
+}
+
+.bg_home3{
+    position: absolute;
+    z-index: -10;
+    margin-top: -100px;
+}
+
+.bg_home4{
+    position: absolute;
+    z-index: 20;
+    right: 0;
+    margin-top: -300px;
+}
+
+.people{
     display: flex;
+
 }
 
 .footer1 {
     margin-top:150px;
-    background-color : #FAAC1B;
+    background-image: url("../images/bg_home5.png");
+    background-size: cover;
     height:361px;
 }
 
@@ -308,6 +305,14 @@ body {
     padding-top :25px;
     width: 175px;
     height: 116px;
+}
+
+.button-footer{
+    transition: .4s;
+}
+
+.button-footer:hover{
+    opacity: 70%;
 }
 
 .footer2{
@@ -374,4 +379,6 @@ body {
     height:48px
 }
 
-
+.footer2 h2{
+    
+}
